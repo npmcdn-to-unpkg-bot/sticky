@@ -28,7 +28,7 @@
   height: 16px;
   border: 1px solid $color-gray-50;
   border-radius: 3px;
-  background: $color-white;
+  background: #fff;
   transition: all .1s;
 
   &:after {
@@ -38,8 +38,8 @@
     left: 2px;
     width: 10px;
     height: 6px;
-    border-left: 2px solid $color-white;
-    border-bottom: 2px solid $color-white;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     transform: rotate(-45deg);
     transition: all .25s;
   }
@@ -69,20 +69,20 @@
 
 //стиль при получении фокуса
 .form__checkbox > input:focus ~ .form__checkbox_indicator {
-  border-color: $color-blue-30;
+  border-color: $color-blue-50;
 
   &:after {
-    border-color: $color-gray-30;
+    border-color: $color-gray-50;
   }
 }
 
 //стили отключенного чекбокса
 .form__checkbox > input:disabled ~ .form__checkbox_indicator {
-  background-color: $color-gray-35;
+  background-color: $color-gray-50;
   cursor: default;
 
   &:after {
-    border-color: $color-gray-30;
+    border-color: $color-gray-50;
   }
 }
 

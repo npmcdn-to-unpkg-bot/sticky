@@ -1,3 +1,1 @@
-(function(){
-    console.log('pew pew');
-});
+console.log('pew pew');

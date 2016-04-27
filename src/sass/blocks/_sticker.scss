@@ -1,0 +1,36 @@
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0;
+  padding: 15px 10px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 400px;
+  height: auto;
+  min-height: 120px;
+  background: $color-gray-10;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all .2s;
+  font-size: 16px;
+
+  &:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.5);
+  }
+}
+
+.sticker:nth-child(1) {
+  background-color: $color-violet;
+}
+
+.sticker:nth-child(2) {
+  background-color: $color-peach;
+}
+
+.sticker:nth-child(3) {
+  background-color: $color-green;
+}
+
+.sticker:nth-child(4) {
+  background-color: $color-blue;
+}
