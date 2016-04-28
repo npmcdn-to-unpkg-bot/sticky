@@ -1,1 +1,1 @@
-//= parts/part.
+//= parts/sticker.js

@@ -8,9 +8,8 @@
   max-width: 400px;
   height: auto;
   min-height: 120px;
-  background: $color-gray-10;
-  border-radius: 2px;
-  cursor: pointer;
+  background: $color-gray-20;
+  border-radius: 3px;
   transition: all .2s;
   font-size: 16px;
 
@@ -19,8 +18,22 @@
   }
 }
 
+.sticker__top {
+  padding-bottom: 5px;
+}
+
+.sticker__center {
+  padding-bottom: 5px;
+}
+
+.sticker__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .sticker:nth-child(1) {
-  background-color: $color-violet;
+  background-color: $color-pink;
 }
 
 .sticker:nth-child(2) {
@@ -33,4 +46,12 @@
 
 .sticker:nth-child(4) {
   background-color: $color-blue;
+}
+
+.sticker:nth-child(5) {
+  background-color: $color-darkgreen;
+}
+
+.sticker:nth-child(6) {
+  background-color: $color-mint;
 }

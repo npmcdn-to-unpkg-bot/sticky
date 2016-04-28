@@ -18,16 +18,7 @@ body {
   font: $font-normal 16px/1.6 $font-family;
   font-weight: normal;
   font-style: normal;
-  color: $font-color_dark;
-}
-
-.page-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  min-width: 320px;
-  min-height: 100%;
-  background: linear-gradient(135deg, $color-mint, $color-mint_dark);
+  color: $color-gray-90;
 }
 
 .container {

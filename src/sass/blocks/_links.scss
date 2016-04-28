@@ -3,7 +3,7 @@
   vertical-align: top;
   text-decoration: none;
   transition: color, .2s;
-  color: $color-gray-50;
+  color: $color-gray-90;
 
   &:hover {
     color: $color-blue-50;
@@ -29,7 +29,7 @@
 }
 
 .link_dark {
-  color: $font-color_dark;
+  color: $color-gray-90;
 
   &:hover {
     color: $color-blue-50;
